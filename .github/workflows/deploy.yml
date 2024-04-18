@@ -1,4 +1,4 @@
-name: Build and Deploy Image
+name: Deploy
 
 on:
   push:
@@ -50,6 +50,9 @@ jobs:
     needs: publish
     name: Deploy Image
     runs-on: ubuntu-latest
+    concurrency:
+      group: ci-${{ github.ref }}
+      cancel-in-progress: true
 
     steps:
       - name: Execute SSH commands
