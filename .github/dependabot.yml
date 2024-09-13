@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      dependencies:
+      npm-dependencies:
         patterns: ["*"] # Group all depenedencies updates into one PR
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
