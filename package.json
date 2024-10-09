@@ -16,7 +16,7 @@
     "@types/node": "^22.7.5",
     "prettier": "^3.3.3",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
