@@ -1,2 +1,2 @@
 # Typescript Template
-A ready to go template for typescript projects
+A ready to go template for typescript projects.
