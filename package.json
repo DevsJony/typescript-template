@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dotenv": "^16.4.6"
+    "dotenv": "^16.4.7"
   }
 }
