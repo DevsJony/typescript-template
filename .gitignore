@@ -130,4 +130,6 @@ dist
 
 .idea/*
 !.idea/prettier.xml
+.playwright-mcp/
+.claude/
 
